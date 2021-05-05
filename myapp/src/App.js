@@ -7,6 +7,8 @@ import {Navbar,NavbarBrand,NavbarText,Button, Modal, ModalHeader, ModalBody, Mod
    import Over from './Components/overlay';
    import Over1 from './Components/overlay1';
    import Colap from './Components/collapse';
+   import Popover from './Components/Pop';
+   import Footer from './Components/Footer';
 
    
   
@@ -67,7 +69,10 @@ export default function Web (){
    <Toas></Toas>
      </div>
      <br/><br/><Car/><br/>
-     <Over/><br/><Over1/>
+     <Over/><br/><Over1/><br/>
+     <br/>
+     <br/>
+     <Popover/><br/><Footer/>
  
     </div>
   );
